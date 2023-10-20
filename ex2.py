@@ -31,12 +31,12 @@ print("Random day of the week:", random_day)
 
 
 # 7. Dice roll simulator: print a random number from 1 to 6.
-dice_roll = 0 # fix this
+dice_roll = random.choice(range(1,5))
 print("Dice roll:", dice_roll)
 
 # 8. Coin flip: randomly chooses "heads" or "tails".
 coins = ['heads','tails']
-coin = "" # fix this
+coin = random.sample(coins, k=1)
 print("Coin flip:", coin)
 
 # 9. Ask the user for a number and print out a random number from 1 to the number the user chooses.
