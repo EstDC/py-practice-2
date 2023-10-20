@@ -48,8 +48,9 @@ print(f"Random number from 1 to {user_number}: {random_number}")
 
 
 # 10. Ask the user to guess a number from 1 to 10 and tell them whether they guessed correctly or not.
-user_guess = 0 # fix this, hint: use int(input("..."))
-random_number = 10 # fix this, random number from 1 to 10
+user_guess = int(input("Guess a number from 1 to 10"))
+
+random_number = random.randint(1,11)
 if user_guess == random_number:
   print("You guessed correctly!")
 else:
