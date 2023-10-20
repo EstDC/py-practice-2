@@ -6,6 +6,7 @@ Exercices for input
 name = input("What is your name? ")
 
 # 2. Ask the user for his/her age
+age = float(input("what's your age?"))
 
 # 3. Ask the user for his/her favorite_color
 
