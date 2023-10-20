@@ -41,9 +41,10 @@ print("Coin flip:", coin)
 
 # 9. Ask the user for a number and print out a random number from 1 to the number the user chooses.
 # hint: use int(input("..."))
-user_number = 0 # fix this
-random_number = 0 # fix this, random number from 1 to user_number
+user_number = int(input("Enter a number"))
+random_number = random.choice(range(1,user_number))
 print(f"Random number from 1 to {user_number}: {random_number}")
+
 
 
 # 10. Ask the user to guess a number from 1 to 10 and tell them whether they guessed correctly or not.
