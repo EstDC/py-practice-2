@@ -15,10 +15,13 @@ favorite_color= input("what's your favorite color?")
 print(favorite_color)
 
 # 4. Ask the user for his/her favorite_number
-favorite_number= input("what's your favorite number?")
+favorite_number= int(input("what's your favorite number?"))
 print(favorite_number)
 
 # 5. Print out the information in a sentence
-print(f"My name is{name}and I'm {age} years old, my favourite color is{favorite_color} and my favourite number is{favorite_number}.")
+print(f"My name is{name}and I'm {age} years old, my favourite color is {favorite_color} and my favourite number is {favorite_number}.")
 
 # 6. Multiply the user's favorite number by 10 and print out the result
+result= int(favorite_number*10)
+print(result)
+
