@@ -10,19 +10,22 @@ rps = ['rock','paper','scissors']
 
 # 2. Create a variable called user_choice that takes input from the user and stores it.
 #   Make sure the user enters rock, paper, or scissors.
-user_choice = "" # fix this, user input, hint: use input("...")
+user_choice= str(input("Enter your choice:")) in rps # fix this, user input, hint: use input("...")
+if str(user_choice) not in rps:
+  print("Please enter rock, paper or scissors")
 
 # 3. Create a variable called computer_choice that randomly chooses from rps.
-computer_choice = "" # fix this, random choice from rps
+computer_choice = random.choice(rps) # fix this, random choice from rps
 
 # 4. Print out the user_choice and the computer_choice.
-print("You chose: " + user_choice)
+print("You chose: " + str(user_choice))
 print("The computer chose: " + computer_choice)
 
 # 5. Print out the winner of rock, paper, scissors.
 # continue this if statement to print out the winner
 if user_choice == computer_choice:
   print("It's a tie!")
+ 
 # write stuff here
 
 # rock beats scissors

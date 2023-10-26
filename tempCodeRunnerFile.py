@@ -1,0 +1,1 @@
+if str(user_choice) not in rps:
